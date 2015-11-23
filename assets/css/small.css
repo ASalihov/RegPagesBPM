@@ -1,0 +1,453 @@
+
+/* Каркас */
+
+#wrapper {
+    min-width: 100%;
+}
+
+#page {
+    padding: 0 0 20px;
+}
+
+#content {
+    width: auto;
+    overflow: hidden;
+}
+
+/* Заголовки */
+
+#h1 {
+    margin-top: 30px;
+}
+
+/* Форма входа */
+
+#login {
+    width: 100%;
+}
+
+    #login .bottom .btn-red {
+        width: 180px;
+    }
+
+/* Форма восстановления пароля */
+
+#recovery {
+    width: 100%;
+}
+
+    #recovery .bottom .btn-red {
+        width: 148px;
+    }
+
+    #recovery .bottom .btn-blue {
+        width: 150px;
+    }
+
+/* Форма регистрации */
+
+#signup {
+    width: 100%;
+}
+
+    #signup .date-group {
+        margin-left: -6px;
+    }
+
+        #signup .date-group .select {
+            margin: 0 1%;
+        }
+/*hedar*/
+.padding-head {
+    padding: 0px 20px;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: #999;
+    min-width: 1070px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.shapka {
+    border: none;
+    height: 200px;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+
+.shapka_top {
+    height: 193px;
+    width: 1046px;
+    margin-right: auto;
+    margin-left: auto;
+    position: relative;
+    padding: 0px;
+}
+
+.jazyki {
+    height: 33px;
+    left: 973px;
+    position: absolute;
+    top: 167px;
+    width: 86px;
+}
+
+.iconki {
+    height: 65px;
+    width: 30px;
+    border-right-width: 1px;
+    border-right-style: dotted;
+    border-right-color: #333;
+    position: absolute;
+    left: 254px;
+    top: 18px;
+}
+
+.email {
+    background-image: url(../img/message.png);
+    display: block;
+    height: 8px;
+    width: 12px;
+    margin-top: 12px;
+    margin-left: 8px;
+    text-decoration: none;
+}
+
+.map {
+    background-image: url(../img/map.png);
+    display: block;
+    height: 9px;
+    width: 17px;
+    margin-top: 14px;
+    margin-left: 5px;
+    text-decoration: none;
+}
+
+.iconki .home {
+    background-image: url(../img/home.png);
+    display: block;
+    height: 10px;
+    width: 11px;
+    margin-top: 10px;
+    margin-left: 8px;
+    text-decoration: none;
+}
+
+.shapka_top a .title_fon {
+    font-size: 11px;
+    color: #535151;
+    position: absolute;
+    top: 4px;
+    right: -10px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.shapka_top img {
+    margin-top: 27px;
+    width: 285px;
+}
+
+.logo1 {
+    border-top-width: 0px;
+    border-right-width: 0px;
+    border-bottom-width: 0px;
+    border-left-width: 0px;
+}
+
+.top_menu {
+    float: right;
+    height: 193px;
+    width: 735px;
+    margin: 0px;
+    padding: 0px;
+}
+
+    .top_menu ul li {
+        list-style-type: none;
+        display: inline;
+        float: left;
+    }
+
+    .top_menu li {
+        height: 140px;
+        width: 168px;
+        margin-top: 23px;
+        margin-right: 20px;
+    }
+
+    .top_menu ul li span {
+        font-size: 14px;
+        font-weight: bold;
+        color: #85C328;
+        text-align: center;
+        margin-bottom: 10px;
+        display: block;
+    }
+
+    .top_menu ul li ul li {
+        display: block;
+        height: 12px;
+        margin-top: 0px;
+        margin-right: -10px;
+        padding-top: 8px;
+        padding-bottom: 8px;
+        background-image: url(../img/tire.png);
+        background-repeat: repeat-x;
+        background-position: left bottom;
+        width: 164px;
+        float: right;
+    }
+
+        .top_menu ul li ul li a {
+            display: block;
+            background-image: url(../img/uk_top_menu.png);
+            background-repeat: no-repeat;
+            background-position: left center;
+            padding-left: 14px;
+            color: #302e2e;
+            text-decoration: none;
+            font-size: 12px;
+        }
+
+    .top_menu ul .poslednii {
+        margin-right: 0px;
+    }
+
+.top_poloska {
+    height: 7px;
+    width: 100%;
+    background-color: #000;
+    min-width: 1110px;
+}
+
+.ulNav {
+    display: inline;
+}
+
+/*body*/
+.body_sait {
+    height: auto;
+    width: 1048px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.content {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 15px;
+    width: 750px;
+    float: right;
+    font-size: 12px;
+    text-align: justify;
+    line-height: 150%;
+}
+
+.left_menu {
+    height: auto;
+    width: 255px;
+    padding-top: 21px;
+    padding-bottom: 21px;
+}
+
+    .left_menu .razdel {
+        height: 23px;
+        width: 250px;
+        background-color: #85C328;
+        position: relative;
+        margin-bottom: 5px;
+        margin-top: 6px;
+    }
+
+.razdel_pravo {
+    background-image: url(../img/pravo_salat.png);
+    float: right;
+    height: 23px;
+    width: 5px;
+}
+
+.razdel_levo {
+    background-image: url(../img/levo_salat.png);
+    float: left;
+    height: 23px;
+    width: 5px;
+}
+
+.strelka_lv {
+    background-image: url(../img/strelka.png);
+    height: 10px;
+    width: 8px;
+    position: absolute;
+    left: 8px;
+    top: 6px;
+}
+
+.nadpis {
+    font-size: 14px;
+    color: #FFF;
+    position: absolute;
+    left: 22px;
+    top: 3px;
+    font-weight: bold;
+}
+
+.left_menu ul li {
+    list-style-type: none;
+    background-image: url(../img/tire.png);
+    background-repeat: repeat-x;
+    background-position: left bottom;
+    width: 238px;
+    margin-right: 6px;
+    margin-left: 6px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+    .left_menu ul li a {
+        margin-left: 6px;
+        margin-right: 6px;
+        color: #302e2e;
+        text-decoration: none;
+        font-size: 12px;
+    }
+
+.clear {
+    clear: both;
+}
+
+ul, menu, dir {
+    margin: 0;
+    padding: 0;
+}
+/*body right*/
+.content h1 {
+    background-image: url(../img/plus_h1.png);
+    background-repeat: no-repeat;
+    background-position: 20px 6px;
+    padding-right: 40px;
+    padding-left: 45px;
+    font-family: "Arial Narrow", Helvetica, sans-serif;
+    font-size: 38px;
+    font-weight: normal;
+    color: #343533;
+    margin-bottom: 20px;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: #333;
+    padding-bottom: 25px;
+    line-height: 0.9;
+    margin-top:0;
+}
+/*Footer*/
+.footer-padding {
+    padding: 0px 20px;
+}
+.podval {
+    background-image: url("../img/punktir.png");
+    background-position: left top;
+    background-repeat: repeat-x;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px;
+    width: 1087px;
+}
+    .podval a {
+            color: #302e2e;
+    }
+    .podval .info {
+    
+    height: 130px;
+    width: 440px;
+    margin-top: 65px;
+    float: left;
+    }
+.nutr_podvala {
+    width: 1048px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.menu_podvala {
+    text-align: center;
+    
+}
+.niz_logo {
+    height: 144px;
+    width: 237px;
+    float: right;
+    margin-top: 20px;
+    position: relative;
+}
+.niz_logo img {
+    float: right;
+}
+.niz_logo p {
+    font-size: 11px;
+    color: #535151;
+    float: right;
+    width: 180px;
+    margin-top: 10px;
+}
+.schetchik {
+    height: 31px;
+    width: 31px;
+    position: absolute;
+    left: 16px;
+    top: 99px;
+}
+.contacty {
+    height: 130px;
+    width: 300px;
+    margin-top: 30px;
+    float: left;
+}
+.contacty p {
+    font-family: "Arial Narrow", Helvetica, sans-serif;
+    font-size: 18px;
+    color: #333;
+    font-weight: bold;
+}
+.st2 {
+    font-size: 26px;
+    color: #373226;
+}
+.st3 {
+    font-size: 23px;
+    color: #85C328;
+}
+.st4 {
+    font-family: "Arial Narrow", Helvetica, sans-serif;
+    font-size: 40px;
+    color: #373226;
+    margin-left: 3px;
+}
+.st5_a {
+    font-size: 12px;
+    color: #000;
+    margin-left: 48px;
+}
+.st5 {
+    font-size: 12px;
+    color: #000;
+}
+.left_menu ul li a:hover {
+	text-decoration: underline;
+}
+.top_menu ul li ul li a:hover {
+	background-image: url(../img/uk_top_menu.png);
+	background-repeat: no-repeat;
+	background-position: 3px center;
+    text-decoration: underline;
+}
+.menu_podvala a {
+        font-size: 12px;
+    text-decoration: none;
+}
+.menu_podvala a:hover {
+        font-size: 12px;
+    text-decoration: underline;
+}
+.niz_logo p a {
+    font-size: 11px;
+    color: #85C328;
+    text-decoration: underline;
+}

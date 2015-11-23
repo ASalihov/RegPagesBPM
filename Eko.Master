@@ -1,0 +1,104 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Eko.master.cs" Inherits="RegistrationPages.Eko" %>
+
+<!DOCTYPE html>
+
+<html lang="ru" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Вход :: Вкармане</title>
+
+    <meta charset="utf-8">
+    <meta name="keywords" content="" />
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width"/>
+
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,700italic,700,300,400' rel='stylesheet' type='text/css' />
+    <link type="text/css" rel="stylesheet" href="assets/css/normalize.css" />
+    <link type="text/css" rel="stylesheet" href="assets/css/styles.css" />
+    <link type="text/css" rel="stylesheet" href="assets/css/small.css" media="screen and (max-width: 640px)" />
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="assets/js/jquery.maskedinput.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.26/angular.min.js"></script>
+    <script src="assets/js/scripts.js"></script>
+</head>
+<body>
+    <form id="IndexForm" runat="server">
+        <asp:ScriptManager ID="ScriptManagerMain"
+            runat="server"
+            EnablePageMethods="true"
+            ScriptMode="Release"
+            LoadScriptsBeforeUI="true">
+        </asp:ScriptManager>
+    </form>
+
+    <div id="wrapper">
+        <div id="header">
+            <div class="content">
+                <div class="row">
+                    <div class="col-6">
+                        <div class="logo"><a href="http://vkarmane-online.ru/"><img src="assets/img/logo.jpg"></a></div>
+                        <div class="slogan">Займы онлайн</div>
+                    </div>
+                    <div class="col-6">
+                        <div class="to-account"><a href="https://vkarmane-online.bpmonline.com/login.aspx"><i class="icon icon-account"></i><span>Личный кабинет</span></a></div>
+                        <div class="phone">
+                            <p>
+                                <span style="font-size: 35px;"><strong>8-800-500-35-85</strong></span><br>
+                                <span style="font-size: 12px;">с 6:00 до 19:00 Мск, без выходных.&nbsp;Звонок по России бесплатный.</span>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="menu">
+                <div class="content">
+                    <table>
+                        <tr>
+                            <td class="home"><a href="http://vkarmane-online.ru/"><i class="icon icon-home"></i></a></td>
+                            <td class="item"><a href="http://vkarmane-online.ru/o_nas/">О нас</a></td>
+                            <td class="item"><a href="http://vkarmane-online.ru/kak_poluchit_zajm/">Как получить займ</a></td>
+                            <td class="item"><a href="http://vkarmane-online.ru/sposoby_pogasheniya_zajma/">Способы погашения займа</a></td>
+                            <td class="item"><a href="http://vkarmane-online.ru/vopros_otvet/">Вопрос-ответ</a></td>
+                            <td class="item"><a href="http://vkarmane-online.ru/usloviya_dogovora/">Условия договора</a></td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+
+        <asp:ContentPlaceHolder ID="content" runat="server"/>
+
+    </div>
+
+    <div id="footer">
+        <div class="content">
+            <div class="row">
+                <div class="col-8">
+                    <ul class="menu">
+                        <li class="item"><a href="http://vkarmane-online.ru/o_nas/">О нас</a></li>
+                        <li class="item"><a href="http://vkarmane-online.ru/kak_poluchit_zajm/">Как получить займ</a></li>
+                        <li class="item"><a href="http://vkarmane-online.ru/sposoby_pogasheniya_zajma/">Способы погашения займа</a></li>
+                        <li class="item"><a href="http://vkarmane-online.ru/vopros_otvet/">Вопрос-ответ</a></li>
+                        <li class="item"><a href="http://vkarmane-online.ru/usloviya_dogovora/">Условия договора</a></li>
+                    </ul>
+                </div>
+                <div class="col-4">
+                    <div class="btn-group">
+                        <a class="btn btn-blue" href="http://vkarmane-online.ru/#new-letter"><i class="icon icon-letter"></i>Написать нам</a>
+                        <a class="btn btn-blue" href="http://vkarmane-online.ru/#new-call"><i class="icon icon-call"></i>Заказать звонок</a>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-6">
+                    <div class="copyright">© 2014-2015 ООО "Финансовая группа ЭКО"/Вкармане. Все права защищены</div>
+                </div>
+                <div class="col-6">
+                    <div class="iconsystems"><a href="http://www.iconsystems.ru" target="_blank">Разработка сайта — Айкон</a></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
