@@ -68,6 +68,7 @@
     <Reference Include="Terrasoft.Core, Version=7.2.0.1530, Culture=neutral, PublicKeyToken=edaadfbc3b0bb879, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\bin\Terrasoft.Core.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
     </Reference>
     <Reference Include="Terrasoft.Core.ServiceModelContract, Version=7.2.0.1530, Culture=neutral, PublicKeyToken=edaadfbc3b0bb879, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
